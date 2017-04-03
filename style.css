@@ -276,6 +276,7 @@ img{
 	display: inline;
 	width: 100%;
 }
+
 .main-navbar {
 	background: #fff none repeat scroll 0 0;
 	border-radius: 0;
@@ -287,6 +288,7 @@ img{
 	-moz-box-shadow: 0px 2px 4px 0px #f3f3f3;
 	box-shadow: 0px 2px 4px 0px #f3f3f3;
 }
+
 .navbar-fixed-top{
 	height: 80px;
 	-webkit-transition: all 0.5s;
@@ -294,6 +296,8 @@ img{
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+	background-color: #27ae60;
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0%,#DEDC00), color-stop(100%,#09B0A1));		
 }
 .logo {
 	height: 100px;  
